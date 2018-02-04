@@ -1,0 +1,15 @@
+{
+  "short_name": "NgTest",
+  "name": "Angular Test Application",
+  "icons": [
+    {
+      "src": "assets/home-1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#2196F3",
+  "background_color": "#2196F3",
+  "display": "standalone"
+}
