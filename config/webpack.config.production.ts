@@ -51,7 +51,7 @@ function buildProductionConfig() {
       new OfflinePlugin({
         autoUpdate: 5 * 60 * 1000,
         AppCache: false,
-        externals: ['/'],
+        externals: ['/', '/home'],
         excludes: ['_redirects'], // for netlify if used
         ServiceWorker: {
           events: true,
